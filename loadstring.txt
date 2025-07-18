@@ -6,8 +6,8 @@ local Lighting = game:GetService("Lighting")
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 
-local key = "cracked"
-local discordLink = "https://discord.gg/EXK4dQxJBv"
+local key = "key"
+local discordLink = "https://paste-drop.com/paste/JyqeH7AuXg"
 local scriptToLoad = [[
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -777,7 +777,7 @@ DebugInfo("print", "ArbixTPGui initialization completed", "")
 ]]
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "ArbixHub"
+ScreenGui.Name = "key"
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.IgnoreGuiInset = true
 ScreenGui.DisplayOrder = 999
@@ -851,7 +851,7 @@ TitleLabel.BackgroundTransparency = 1
 TitleLabel.Size = UDim2.new(1, -80, 1, 0)
 TitleLabel.Position = UDim2.new(0, 15, 0, 0)
 TitleLabel.Font = Enum.Font.GothamBlack
-TitleLabel.Text = "ARBIX HUB"
+TitleLabel.Text = "KEY SYSTEM"
 TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TitleLabel.TextSize = 20
 TitleLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -937,7 +937,7 @@ SubmitButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 SubmitButton.Position = UDim2.new(0, 0, 0, 0)
 SubmitButton.Size = UDim2.new(0.48, -5, 1, 0)
 SubmitButton.Font = Enum.Font.GothamSemibold
-SubmitButton.Text = "SUBMIT CODE"
+SubmitButton.Text = "SUBMIT KEY"
 SubmitButton.TextSize = 18
 SubmitButton.TextWrapped = true
 SubmitButton.TextTransparency = 1
@@ -961,7 +961,7 @@ GetCodeButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 GetCodeButton.Position = UDim2.new(0.52, 5, 0, 0)
 GetCodeButton.Size = UDim2.new(0.48, -5, 1, 0)
 GetCodeButton.Font = Enum.Font.GothamSemibold
-GetCodeButton.Text = "GET CODE"
+GetCodeButton.Text = "GET KEY"
 GetCodeButton.TextSize = 18
 GetCodeButton.TextWrapped = true
 GetCodeButton.TextTransparency = 1
